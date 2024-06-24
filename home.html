@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Night Shade | Self Empowerment</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo-container">
+      <a href="/" class="logo">Night Shade</a>
+    </div>
+    <div class="items-container">
+      <ul class="items">
+        <li class="item">
+          <a href="#" class="item-link active">Home</a>
+        </li>
+        <li class="item">
+          <a href="#about" class="item-link">About</a>
+        </li>
+        <li class="item">
+          <a href="#contact" class="item-link">Contact</a>
+        </li>
+        <li class="item">
+          <a href="#socials" class="item-link">Socials</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <section class="container">
+      <div class="info">
+        <span class="subtitle">Self Improvement</span>
+        <h1>Shade Out!</h1>
+        <span class="subtitle">
+          Night Shade is your go-to destination for personal and professional growth! Offering a curated selection of free self-improvement books, insightful videos, transformative courses, Night Shade empowers individuals to unlock their full potential. Dive into a wealth of resources!
+        </span>
+        <button class="btn">Get Started</button>
+      </div>
+      <div class="ilustration">
+        <img src="Shade_Logo.jpg" alt="Night Shade Logo" />
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="about-info">
+          <h2 class="section-title">About Us</h2>
+          <p class="section-description">
+            Night Shade is your go-to destination for personal and professional growth. Offering a curated selection of free self-improvement books, insightful videos, and transformative courses, Night Shade empowers individuals to unlock their full potential. Dive into a wealth of resources designed to enhance your career, cultivate mindfulness, and ignite your entrepreneurial spirit. Join our thriving community today and embark on a journey of continuous learning and self-discovery.
+
+At Night Shade, we believe in the power of knowledge and the importance of giving back. That's why we provide free access to valuable educational content, host engaging giveaways, and foster a supportive environment where members can connect and thrive. Whether you're seeking inspiration, practical advice, or actionable strategies for success, Night Shade is here to support your growth every step of the way.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <!-- Existing content for Self Improvement -->
+  
+      <div class="courses-books">
+        <section id="courses" class="courses-section">
+          <!-- Courses section content -->
+          <h2 class="section-title">Courses</h2>
+          <p class="section-description">Explore our transformative courses to enhance your skills.</p>
+          <button class="section-btn" onclick="toggleCourses()">View Courses</button>
+          <div id="courses-list" class="courses-list">
+            <ul>
+              <li><a href="#" class="course-link">Course 1</a></li>
+              <li><a href="#" class="course-link">Course 2</a></li>
+              <li><a href="#" class="course-link">Course 3</a></li>
+
+            </ul>
+          </div>
+        </section>
+  
+        
+
+    
+    
+  </main>
+
+  <!-- JavaScript for toggling courses and books lists -->
+  <script>
+    function toggleCourses() {
+      var coursesList = document.getElementById("courses-list");
+      coursesList.classList.toggle("show");
+    }
+
+    function toggleBooks() {
+      var booksList = document.getElementById("books-list");
+      booksList.classList.toggle("show");
+    }
+  </script>
+</body>
+</html>
